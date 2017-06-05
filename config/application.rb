@@ -29,5 +29,17 @@ module WDIProject4Api
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+    config.autoload_paths << Rails.root.join('lib')
+
+    require 'jwt'
+
+    class Auth
+      # "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      def self.issue
+      end
+
+      def self.decode
+      end
+    end
   end
 end
