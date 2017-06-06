@@ -1,4 +1,7 @@
 Country.destroy_all
+User.destroy_all
+Trip.destroy_all
+Stop.destroy_all
 
 response = HTTParty.get('https://restcountries.eu/rest/v2/all')
 
@@ -139,7 +142,25 @@ t1 = user1.trips.create!(
   name: "Africa bananza"
 )
 
+t2 = user2.trips.create!(
+  name: "North America Massive"
+)
+
+t3 = user3.trips.create!(
+  name: "Hello Kitty Asia"
+)
+
 s1 = t1.stops.create!(
-  date: "2017-12-01",
-  country: Country.find_by(name: "Tanzania, United Republic of")
+  date: "2017-8-01",
+  country: Country.find_by(name: "Ghana")
+)
+
+s2 = t2.stops.create!(
+  date: "2017-8-01",
+  country: Country.find_by(name: "Canada")
+)
+
+s3 = t3.stops.create!(
+  date: "2017-7-01",
+  country: Country.find_by(name: "Japan")
 )
