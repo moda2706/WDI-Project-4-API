@@ -27,10 +27,12 @@ ActiveRecord::Schema.define(version: 20170606125922) do
   end
 
   create_table "stops", force: :cascade do |t|
-    t.date "date"
+    t.string "date"
     t.bigint "trip_id"
+    t.bigint "country_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["country_id"], name: "index_stops_on_country_id"
     t.index ["trip_id"], name: "index_stops_on_trip_id"
   end
 
@@ -55,6 +57,7 @@ ActiveRecord::Schema.define(version: 20170606125922) do
     t.string "image"
   end
 
+  add_foreign_key "stops", "countries"
   add_foreign_key "stops", "trips"
   add_foreign_key "trips", "users"
 end

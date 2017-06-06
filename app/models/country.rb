@@ -1,4 +1,4 @@
 class Country < ApplicationRecord
   validates :name, presence: true, uniqueness: true
-  has_and_belongs_to_many :stops
+  has_many :stops
 end
