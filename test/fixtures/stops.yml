@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2017-06-06
+  country: one
+
+two:
+  date: 2017-06-06
+  country: two
