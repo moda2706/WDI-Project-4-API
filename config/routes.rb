@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :trips
   resources :stops
+  resources :trips
   resources :countries
   scope :api do
     resources :users
