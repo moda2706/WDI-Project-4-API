@@ -114,3 +114,117 @@ image: "http://data.whicdn.com/images/17631250/379441_272549802789135_1000010235
 twitter: "",
 facebook: ""
 )
+
+country1 = Country.create!(
+ name: "Canada",
+ continent: "North America",
+ currency: "Canadian Dollar",
+ language: "English",
+ image: "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5230047963001_5203640497001-vs.jpg?pubId=5104226627001&videoId=5203640497001",
+ description: "Just wonderful. Nat give me your passport"
+)
+
+country2 = Country.create!(
+ name: "Mexico",
+ continent: "South America",
+ currency: "Mexican Pesos",
+ language: "Spanish",
+ image: "http://www.nationalgeographic.com/content/dam/travel/2016-digital/top-10-mexico-city/metropolitan-cathedral-zocalo-mexico-city.JPG",
+ description: "Spice me up"
+)
+
+country3 = Country.create!(
+ name: "Colombia",
+ continent: "South America",
+ currency: "Pesos",
+ language: "Spanish",
+ image: "http://www.enforex.com/img/virtual-tour/colombia/colombia-11.jpg",
+ description: "Give me the drugs"
+)
+
+country4 = Country.create!(
+ name: "St. Lucia",
+ continent: "North America",
+ currency: "Eastern Caribbean Dollar",
+ language: "English",
+ image: "http://www.telegraph.co.uk/content/dam/Travel/leadAssets/29/88/st-lucia-caribbean_2988564a-large.jpg",
+ description: "Full of posh people"
+)
+
+country5 = Country.create!(
+ name: "Japan",
+ continent: "Asia",
+ currency: "Yen",
+ language: "Japanese",
+ image: "http://us.jnto.go.jp/images/japan101.jpg",
+ description: "Konichiwa. Feed me sushi"
+)
+
+country6 = Country.create!(
+ name: "New Zealand",
+ continent: "Australia",
+ currency: "New Zealand Dollar",
+ language: "English",
+ image: "http://www.canterbury.ac.nz/international/uc-a-world-recognised-university/living-in-new-zealand/Aoraki-Mt-cook-new-zealand_INT_full.jpg",
+ description: "So many climates!"
+)
+
+country7 = Country.create!(
+ name: "Dubai",
+ continent: "Asia",
+ currency: "Dirham",
+ language: "Arabic",
+ image: "https://www.visitdubai.com/-/media/summercampaign/summer-2017/itineraries/one-day-in-dubai.jpg",
+ description: "Super duper hot!"
+)
+
+country8 = Country.create!(
+ name: "Estonia",
+ continent: "Europe",
+ currency: "Euro",
+ language: "Estonian",
+ image: "https://www.easyjet.com/en/holidays/shared/images/guides/estonia.jpg",
+ description: "Medieval Towns!"
+)
+
+country9 = Country.create!(
+ name: "Spain",
+ continent: "Europe",
+ currency: "Euro",
+ language: "Spanish",
+ image: "http://www.coxandkingsusa.com/resources/images/countries/spain.jpg",
+ description: "Magheritas galore"
+)
+
+country10 = Country.create!(
+ name: "South Africa",
+ continent: "Africa",
+ currency: "Rand",
+ language: "English",
+ image: "https://www.goabroad.com/images/program_content/prime-south-africa-1435316771.jpg",
+ description: "All of the elephants"
+)
+
+stop1 = country1.create!(
+date: "11.03.2017"
+)
+
+stop2 = country10.create!(
+date: "08.29.2017"
+)
+
+stop1 = country9.create!(
+date: "09.04.2017"
+)
+
+stop1 = country3.create!(
+date: "08.05.2017"
+)
+
+stop1 = country1.create!(
+date: "12.12.2017"
+)
+
+stop1 = country1.create!(
+date: "07.17"
+)
