@@ -1,4 +1,4 @@
 class TripSerializer < ActiveModel::Serializer
   attributes :id, :name
-  has_one :stop
+  has_one :user
 end

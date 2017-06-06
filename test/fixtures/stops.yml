@@ -2,8 +2,8 @@
 
 one:
   date: 2017-06-06
-  country: one
+  trip: one
 
 two:
   date: 2017-06-06
-  country: two
+  trip: two

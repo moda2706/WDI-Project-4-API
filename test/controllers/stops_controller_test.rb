@@ -12,7 +12,7 @@ class StopsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create stop" do
     assert_difference('Stop.count') do
-      post stops_url, params: { stop: { country_id: @stop.country_id, date: @stop.date } }, as: :json
+      post stops_url, params: { stop: { date: @stop.date, trip_id: @stop.trip_id } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class StopsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update stop" do
-    patch stop_url(@stop), params: { stop: { country_id: @stop.country_id, date: @stop.date } }, as: :json
+    patch stop_url(@stop), params: { stop: { date: @stop.date, trip_id: @stop.trip_id } }, as: :json
     assert_response 200
   end
 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170606122431) do
+ActiveRecord::Schema.define(version: 20170606124612) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,22 +26,6 @@ ActiveRecord::Schema.define(version: 20170606122431) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "stops", force: :cascade do |t|
-    t.date "date"
-    t.bigint "country_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["country_id"], name: "index_stops_on_country_id"
-  end
-
-  create_table "trips", force: :cascade do |t|
-    t.string "name"
-    t.bigint "stop_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["stop_id"], name: "index_trips_on_stop_id"
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "first_name"
@@ -55,6 +39,4 @@ ActiveRecord::Schema.define(version: 20170606122431) do
     t.string "image"
   end
 
-  add_foreign_key "stops", "countries"
-  add_foreign_key "trips", "stops"
 end

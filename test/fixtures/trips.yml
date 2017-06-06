@@ -2,8 +2,8 @@
 
 one:
   name: MyString
-  stop: one
+  user: one
 
 two:
   name: MyString
-  stop: two
+  user: two
