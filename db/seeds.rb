@@ -26,8 +26,8 @@ email: "sophie@sophie.com",
 password: "password",
 password_confirmation: "password",
 image: "http://canberravet.com.au/wp-content/uploads/2017/03/Rabbits.jpg",
-twitter: "",
-facebook: ""
+twitter: "xx",
+facebook: "xx"
 )
 
 user2 = User.create!(
