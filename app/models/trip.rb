@@ -1,7 +1,8 @@
 class Trip < ApplicationRecord
-  has_many :stops
-  has_many :countries, :through => :stops
-  belongs_to :user
   validates :user_id, presence: true
   validates :name, presence: true
+
+  belongs_to :user
+  has_many :stops
+  has_many :countries, :through => :stops
 end
