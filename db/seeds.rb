@@ -31,10 +31,10 @@ facebook: "xx"
 )
 
 user2 = User.create!(
-username: "Sophie2",
-first_name: "Sophie2",
-last_name: "Downey2",
-email: "sophie2@sophie2.com",
+username: "Mo",
+first_name: "Mo",
+last_name: "Miah",
+email: "mo@mo.com",
 password: "password",
 password_confirmation: "password",
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZhN6s6kuVfcyBf2OOZcsCFg3z8WRX_4LWPaxdJbiii49G1KTa_g",
@@ -43,10 +43,10 @@ facebook: ""
 )
 
 user3 = User.create!(
-username: "Sophie3",
-first_name: "Sophie3",
-last_name: "Downey3",
-email: "sophie3@sophie3.com",
+username: "Alex",
+first_name: "Alex",
+last_name: "Chin",
+email: "alex@alex.com",
 password: "password",
 password_confirmation: "password",
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdsD6tg7yEzZggd6b73ODlbw6iUPyzMQ7g28ADMZlAMQP05lRH",
@@ -55,10 +55,10 @@ facebook: ""
 )
 
 user4 = User.create!(
-username: "Sophie4",
-first_name: "Sophie4",
-last_name: "Downey4",
-email: "sophie4@sophie4.com",
+username: "Rane",
+first_name: "Rane",
+last_name: "Gowan",
+email: "rane4@rane.com",
 password: "password",
 password_confirmation: "password",
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkB4-oWpEOZzv3jhW66pNY-50_X_u5y-Zg5fOjxaOkCtSbYc1",
@@ -67,10 +67,10 @@ facebook: ""
 )
 
 user5 = User.create!(
-username: "Sophie5",
-first_name: "Sophie5",
-last_name: "Downey5",
-email: "sophie5@sophie5.com",
+username: "Nat",
+first_name: "Nat",
+last_name: "Huitson",
+email: "nat@nat.com",
 password: "password",
 password_confirmation: "password",
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQioJsI-6fnI5zpuGfMQjHe7qLfQnvGpTJBgKMZyGgssOAMydvysg",
@@ -79,10 +79,10 @@ facebook: ""
 )
 
 user6 = User.create!(
-username: "Sophie6",
-first_name: "Sophie6",
-last_name: "Downey6",
-email: "sophie6@sophie6.com",
+username: "Ed",
+first_name: "Ed",
+last_name: "Compton",
+email: "ed@ed.com",
 password: "password",
 password_confirmation: "password",
 image: "http://i3.mirror.co.uk/incoming/article854307.ece/ALTERNATES/s615/Rafa-Benitez-Steven-Gerrard-Champions-League-Istanbul.jpg",
@@ -91,10 +91,10 @@ facebook: ""
 )
 
 user7 = User.create!(
-username: "Sophie7",
-first_name: "Sophie7",
-last_name: "Downey7",
-email: "sophie7@sophie7.com",
+username: "Lee",
+first_name: "Lee",
+last_name: "Noad",
+email: "lee@lee.com",
 password: "password",
 password_confirmation: "password",
 image: "http://i.dailymail.co.uk/i/pix/2012/11/22/article-2236795-0283B6420000044D-245_634x301.jpg",
@@ -103,10 +103,10 @@ facebook: ""
 )
 
 user8 = User.create!(
-username: "Sophie8",
-first_name: "Sophie8",
-last_name: "Downey8",
-email: "sophie8@sophie8.com",
+username: "AlexY",
+first_name: "Alex",
+last_name: "Yeates",
+email: "alexy@alexy.com",
 password: "password",
 password_confirmation: "password",
 image: "http://poster.keepcalmandposters.com/59536.png",
@@ -115,10 +115,10 @@ facebook: ""
 )
 
 user9 = User.create!(
-username: "Sophie9",
-first_name: "Sophie9",
-last_name: "Downey9",
-email: "sophie9@sophie9.com",
+username: "Sam",
+first_name: "Sam",
+last_name: "Lloyd",
+email: "sam@sam.com",
 password: "password",
 password_confirmation: "password",
 image: "https://beckrow.suffolk.sch.uk/suffolk/primary/beckrow/arenas/websitecontent/web/rabbits-001.jpg?width=1920&height=1080&scale=LIMIT_MAXSIZE",
@@ -127,10 +127,10 @@ facebook: ""
 )
 
 user10 = User.create!(
-username: "Sophie10",
-first_name: "Sophie10",
-last_name: "Downey10",
-email: "sophie10@sophie10.com",
+username: "Tim",
+first_name: "Tim",
+last_name: "Shaw",
+email: "tim@tim.com",
 password: "password",
 password_confirmation: "password",
 image: "http://data.whicdn.com/images/17631250/379441_272549802789135_100001023520658_843245_785418404_n_large.jpg",
@@ -138,8 +138,32 @@ twitter: "",
 facebook: ""
 )
 
+user11 = User.create!(
+username: "Louis",
+first_name: "Louis",
+last_name: "Boyle",
+email: "louis@louis.com",
+password: "password",
+password_confirmation: "password",
+image: "https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+twitter: "",
+facebook: ""
+)
+
+user12 = User.create!(
+username: "Sean",
+first_name: "Sean",
+last_name: "Gantly",
+email: "sean@sean.com",
+password: "password",
+password_confirmation: "password",
+image: "http://i1.manchestereveningnews.co.uk/incoming/article12211477.ece/ALTERNATES/s1200/GettyImages-624342376.jpg",
+twitter: "",
+facebook: ""
+)
+
 t1 = user1.trips.create!(
-  name: "Africa bananza"
+  name: "Africa bonanza"
 )
 
 t2 = user2.trips.create!(
@@ -147,7 +171,11 @@ t2 = user2.trips.create!(
 )
 
 t3 = user3.trips.create!(
-  name: "Hello Kitty Asia"
+  name: "Noodles Noodles Noodles"
+)
+
+t4 = user4.trips.create!(
+  name: "Asian Adventure"
 )
 
 s1 = t1.stops.create!(
@@ -155,12 +183,67 @@ s1 = t1.stops.create!(
   country: Country.find_by(name: "Ghana")
 )
 
-s2 = t2.stops.create!(
+s2 = t1.stops.create!(
+  date: "2017-9-01",
+  country: Country.find_by(name: "Madagascar")
+)
+
+s3 = t1.stops.create!(
+  date: "2017-10-01",
+  country: Country.find_by(name: "Tanzania, United Republic of")
+)
+
+s4 = t1.stops.create!(
+  date: "2017-9-01",
+  country: Country.find_by(name: "Kenya")
+)
+
+s5 = t2.stops.create!(
   date: "2017-8-01",
   country: Country.find_by(name: "Canada")
 )
 
-s3 = t3.stops.create!(
-  date: "2017-7-01",
+s6 = t2.stops.create!(
+  date: "2017-9-01",
+  country: Country.find_by(name: "United States of America")
+)
+
+s7 = t2.stops.create!(
+  date: "2017-10-01",
+  country: Country.find_by(name: "Mexico")
+)
+
+s8 = t2.stops.create!(
+  date: "2017-11-01",
+  country: Country.find_by(name: "Costa Rica")
+)
+
+s9 = t3.stops.create!(
+  date: "2017-8-01",
   country: Country.find_by(name: "Japan")
+)
+
+s10 = t3.stops.create!(
+  date: "2017-9-01",
+  country: Country.find_by(name: "Thailand")
+)
+
+s11 = t3.stops.create!(
+  date: "2017-10-01",
+  country: Country.find_by(name: "Philippines")
+)
+
+s12 = t4.stops.create!(
+  date: "2017-8-01",
+  country: Country.find_by(name: "Japan")
+)
+
+s13 = t4.stops.create!(
+  date: "2017-9-01",
+  country: Country.find_by(name: "Thailand")
+)
+
+s14 = t4.stops.create!(
+  date: "2017-10-01",
+  country: Country.find_by(name: "Philippines")
 )
