@@ -26,6 +26,7 @@ class StopsController < ApplicationController
 
   # PATCH/PUT /stops/1
   def update
+p stop_params
     if @stop.update(stop_params)
       render json: @stop
     else

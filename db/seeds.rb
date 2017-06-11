@@ -171,7 +171,7 @@ t2 = user2.trips.create!(
 )
 
 t3 = user3.trips.create!(
-  name: "Noodles Noodles Noodles"
+  name: "Asia Experience"
 )
 
 t4 = user4.trips.create!(
