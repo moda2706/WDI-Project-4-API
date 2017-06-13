@@ -171,7 +171,8 @@ t2 = user2.trips.create!(
 )
 
 t3 = user3.trips.create!(
-  name: "Asia Experience"
+  name: "Asia Experience",
+  image: "https://chillchilljapan.com/wp-content/uploads/2016/05/mountain-wallpaper-nature-snow-background-winter-japan-650x406.jpg"
 )
 
 t4 = user4.trips.create!(

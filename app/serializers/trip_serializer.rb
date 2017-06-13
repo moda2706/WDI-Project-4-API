@@ -1,5 +1,5 @@
 class TripSerializer < ActiveModel::Serializer
-  attributes :id, :name, :stops
+  attributes :id, :name, :image, :stops
   has_one :user
   has_many :stops
 
