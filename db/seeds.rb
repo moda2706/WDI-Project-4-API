@@ -62,6 +62,7 @@ email: "rane4@rane.com",
 password: "password",
 password_confirmation: "password",
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkB4-oWpEOZzv3jhW66pNY-50_X_u5y-Zg5fOjxaOkCtSbYc1",
+about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 twitter: "",
 facebook: ""
 )
@@ -176,7 +177,8 @@ t3 = user3.trips.create!(
 )
 
 t4 = user4.trips.create!(
-  name: "Asian Adventure"
+  name: "Asian Adventure",
+  image: "http://cdn.images.express.co.uk/img/dynamic/galleries/x701/253363.jpg"
 )
 
 s1 = t1.stops.create!(
